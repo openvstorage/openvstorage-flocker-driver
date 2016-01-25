@@ -10,7 +10,7 @@ and associated OpenvStorage volumes are moved.
 
 ## Installation
 
-Make sure you have Flocker already installed. If not visit  [Install Flocker](https://docs.clusterhq.com/en/latest/using/installing/index.html)
+Make sure you have Flocker already installed. If not visit  [Install Flocker](https://docs.clusterhq.com/en/1.9.0/install/index.html)
 
 **_Be sure to use /opt/flocker/bin/python as this will install the driver into the right python environment_**
 
