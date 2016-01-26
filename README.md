@@ -8,6 +8,9 @@ store with Docker containers. OpenvStorage's Flocker volume plugin allows the
 data nodes to be moved to a new server when the application’s Docker container
 and associated OpenvStorage volumes are moved.
 
+## Prerequisites
+* The Flocker integration requires the [Blktap Open vStorage Utils](https://openvstorage.gitbooks.io/openvstorage/content/Administration/createvdisk.html#) to be installed.
+
 ## Installation
 
 Make sure you have Flocker already installed. If not visit  [Install Flocker](https://docs.clusterhq.com/en/latest/install/index.html)
@@ -35,6 +38,6 @@ cd openvstorage-flocker-driver/
 Add the following section to the file '/etc/flocker/agent.yml':
 "dataset":
     "backend": "openvstorage_flocker_plugin"
-    "vpool_conf_file": "/path/to/volumedriverfs.json"
+    "vpool_conf_file": "/opt/OpenvStorage/config/storagedriver/storagedriver/<vpool_name>.json"
 (This is an example. Use your own values)
 </pre>
