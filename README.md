@@ -9,7 +9,7 @@ data nodes to be moved to a new server when the application’s Docker container
 and associated OpenvStorage volumes are moved.
 
 ## Prerequisites
-* The Flocker integration requires the [Blktap Open vStorage Utils](https://openvstorage.gitbooks.io/openvstorage/content/Administration/createvdisk.html#) to be installed.
+* The Flocker integration requires the [Blktap Open vStorage Utils](https://openvstorage.gitbooks.io/openvstorage/content/Administration/createvdisk.html#block) to be installed.
 
 ## Installation
 
