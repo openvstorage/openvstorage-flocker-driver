@@ -185,6 +185,9 @@ class OpenvStorageBlockDeviceAPI(object):
         :returns: A ``BlockDeviceVolume`` with a ``attached_to`` attribute set
             to ``attach_to``.
         """
+        ascii_blockdevice_id = blockdevice_id.encode()
+        self._check_exists(ascii_blockdevice_id)
+
         if self._is_already_mapped(blockdevice_id):
             raise AlreadyAttachedVolume(blockdevice_id)
 
