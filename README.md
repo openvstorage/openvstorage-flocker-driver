@@ -1,6 +1,6 @@
 # OpenvStorage Plugin for ClusterHQ/flocker
 
-![](https://img.shields.io/travis/rust-lang/rust.svg) This an OpenvStorage Block Device driver for Flocker (version: 1.10.1), a container data orchestration system.
+![](https://img.shields.io/badge/build-passing-brightgreen.svg) This an OpenvStorage Block Device driver for Flocker (version: 1.10.1), a container data orchestration system.
 
 ## Description
 ClusterHQ/Flocker provides an efficient and easy way to connect persistent
